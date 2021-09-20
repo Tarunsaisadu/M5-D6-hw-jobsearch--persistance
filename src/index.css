@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Economica|Roboto+Condensed");
+
+body {
+  margin: 5%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  background: rgb(102, 218, 166);
+  background: linear-gradient(
+    180deg,
+    rgba(102, 218, 166, 1) 57%,
+    rgba(227, 235, 229, 1) 98%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Economica", sans-serif;
+}
+
+.form {
+  height: 25px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 500px;
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(162, 243, 225);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.form > input {
+  float: left;
+}
+
+.form > button {
+  float: right;
+  margin: 1px;
+}
+
+button {
+  height: 35px;
+}
+
+.Gallery {
+  margin: 10px;
+}
+
+.Gallery > img {
+  width: 400px;
+  height: 25s0px;
+  z-index: -1;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+.multiform {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.multiform > div > input {
+  width: 40px;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.multiform > div {
+  float: left;
+}
+
+.task-list {
+  cursor: pointer;
+}
+
+.completed-list {
+  color: grey;
+}
+
+.delete-task {
+  color: black;
+  cursor: pointer;
+}
+
+.Stories > div {
+  margin: 15px;
+}
+
+.Matrix > img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.Jobs {
+  text-align: left;
+}
